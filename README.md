@@ -51,8 +51,8 @@ Something like this will show up:
 
 ```
 # m h  dom mon dow   command
- * *   *   *   *   /usr/local/bin/sunwait sun up -5:00 [insert latitude] [insert longitude]; python /usr/local/bin/Sunlapse_4_u/main.py
- * *   *   *   *   /usr/local/bin/sunwait sun down -5:00 [insert latitude] [insert longitude]; python /usr/local/bin/Sunlapse_4_u/main.py 
+ * *   *   *   *   /usr/local/bin/sunwait sun up -5:00 [insert latitude] [insert longitude]; python3 /usr/local/bin/Sunlapse_4_u/main.py
+ * *   *   *   *   /usr/local/bin/sunwait sun down -5:00 [insert latitude] [insert longitude]; python3 /usr/local/bin/Sunlapse_4_u/main.py 
 ``` 
 Now, the Raspberry Pi will know to wait until 5 minutes before the sunrise and the sunset to run the program. 
 
